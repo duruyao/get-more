@@ -1,40 +1,34 @@
 from glob import glob
-from src import WangYiYun, QQMusic, QuanMin
-import re
-import os
-import sys
-import getopt
+from src import wangyiyun, qqmusic, quanmin
+import re, os, sys, getopt
 
 
 def usage():
     """
+    Usage:      get-more [-phvu] [Options] <URL>
 
-    Usage: get-more [OPTION]... URL...
-
-    Description：
+    Options:
                 -p,--path   Define path or default path will be used
                 -h,--help   Display help information.
                 -v,--version    Display version number.
                 -u,--update     To update
 
-    For example:
-        get-more -p D:/file http://kg.qq.com/node/personal?uid=63999c86262c308d30
-        get-more -p D:/file0 http://node.kg.qq.com/play?s=cwaiOwc4ajtBtcnI&g_f=personal
-        get-more -p D:/file1 http://node.kg.qq.com/personal?uid=639d9a80212f32823c&g_f=personal
-        get-more -p D:/file2 https://music.163.com/#/song?id=350909
-        get-more -p D:/file3 https://music.163.com/#/artist?id=6731
-        get-more -p D:/file4 https://y.qq.com/n/yqq/song/002hXDfk0LX9KO.html
-        get-more https://y.qq.com/n/yqq/singer/001BHDR33FZVZ0.html?tab=song
-        get-more https://www.bilibili.com/video/av20989089
-        get-more -h
-        get-more -v
-
+    Example:
+                get-more -p D:/file http://kg.qq.com/node/personal?uid=63999c86262c308d30
+                get-more -p D:/file0 http://node.kg.qq.com/play?s=cwaiOwc4ajtBtcnI&g_f=personal
+                get-more -p D:/file1 http://node.kg.qq.com/personal?uid=639d9a80212f32823c&g_f=personal
+                get-more -p D:/file2 https://music.163.com/#/song?id=350909
+                get-more -p D:/file3 https://music.163.com/#/artist?id=6731
+                get-more -p D:/file4 https://y.qq.com/n/yqq/song/002hXDfk0LX9KO.html
+                get-more https://y.qq.com/n/yqq/singer/001BHDR33FZVZ0.html?tab=song
+                get-more https://www.bilibili.com/video/av20989089
+                get-more -h
+                get-more -v
     """
 
 
 def help():
     """
-
     Input 'get-more' to get usage
     Input 'get-more -h' or 'get-more --help' to get help
     Input 'get-more -v' or 'get-more --version' to get version
@@ -43,27 +37,23 @@ def help():
     Input 'get-more [URL]' to download sth from web to 'C:/from_get-tool',which is a default path
 
     >---< If you found bugs, please send E-mail to graycat0918@gmail.com >---< Like you >---<
-
     """
 
 
 def version():
     """
-
     Version:        get-tool-181014
     Designer:       duruyao
     E-mail:         graycat0918@gmail.com
     Supported Web： WangYiyunMusic  QQMusic  QuanMinMusic...
 
     >---< More functions will be provided >---< Stay waiting >---<
-
     """
 
 
 def update():
     """
     This is the lastest version!
-
     """
 
 
