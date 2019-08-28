@@ -13,8 +13,8 @@
 任选**其一**，自行下载**最新**版本，并解压到**合适**的位置。
 
 ## 2. 系统 & 环境
-> 该使用说明针对 `Windows` 操作系统（Linux 用户可下载源代码），依赖 `python-3.X` 环境，若您的 `Windows` 无 `python-3.X`，请先安装 `python-3.X` ,已有该环境的用户可直接跳到步骤 `3. 安装模块`。
-特附上 [python-3.6.5安装包下载链接](https://share.weiyun.com/52UCsyb)，当然更希望你从 [python官网](https://www.python.org/) 中下载适合自己的版本，同样自行保存到本地合适的位置。
+> 该使用说明针对 `Windows` 操作系统（Linux 用户可下载源代码），依赖 `python-3.X` 环境，若您的 `Windows` 无 `python-3.X`，请先安装 `python-3.X` ,已有该环境的用户可直接跳到步骤 [3. 安装模块](#3)。
+特附上python-3.6.5安装包 [下载链接](https://share.weiyun.com/52UCsyb)，当然更希望你从 [python官网](https://www.python.org/) 中下载适合自己的版本，同样自行保存到本地合适的位置。
 
 ### 2.1. **安装 Python 3**
 
@@ -36,12 +36,13 @@
 
 ![](img/py-success.png)
 
-## 3. 安装模块
+<h2 id="3"> 3. 安装模块 </h2>
+
 > 本软件在 `python标准库` 基础上还依赖几个第三方模块，具体安装步骤已经写成脚本并转化为可执行文件 `install.exe`
 
 ### 3.1. **双击目录下的 install.exe**
 
-![](2.png)
+![](img/2.png)
 
 ### 3.2. **按照提示复制且仅复制 `红色边框` 内的信息**
 
