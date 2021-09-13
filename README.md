@@ -7,13 +7,8 @@
 下述说明以 Windows 10 操作系统为例
 
 ## 1. 下载 get-more
-`get-more` 安装包：
-- [Google Drive](https://drive.google.com/open?id=1Xp2v2uyz-b8drLy3KAEu48xQdrWcFipe)
-- [OneDrive](https://1drv.ms/f/s!ArbZ01SuUv5M2B0_ea9EAQ3qn8tX)
-- [坚果云](https://www.jianguoyun.com/p/DXsvZZsQ1qf_BhjX1GY)
-- [微云](https://share.weiyun.com/5HwmTcM)       
 
-任选**其一**，自行下载**最新**版本，并解压到**合适**的位置。
+下载 `get-more` 的 [最新版安装包](https://github.com/duruyao/get-more/releases)，并解压到**合适**的位置。
 
 ## 2. 系统 & 环境
 > 该使用说明针对 `Windows` 操作系统（Unix/Linux/MacOS 用户可下载源代码），依赖 `Python-3.X` 环境，若您的 `Windows` 无 `Python-3.X`，请先安装 `Python-3.X` ,已有该环境的用户可直接跳到步骤 [3. 安装模块](#3)。
