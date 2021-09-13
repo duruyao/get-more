@@ -1,10 +1,13 @@
-# 下载工具 get-tool 使用说明（Windows版）
+# get-more 使用说明
 
-> **谁适合使用get-tool？如果你是反产权人士，开源软件响应者或黑客精神推崇者，那么别错过他。**
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+> **谁适合使用 get-more？如果你是反产权人士，开源软件响应者或黑客精神推崇者，那么别错过他。**
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;~~沃兹基硕德~~
 
-## 1. 下载 get-tool
-`get-tool` 安装包链接如下：
+
+下述说明以 Windows 10 操作系统为例
+
+## 1. 下载 get-more
+`get-more` 安装包：
 - [Google Drive](https://drive.google.com/open?id=1Xp2v2uyz-b8drLy3KAEu48xQdrWcFipe)
 - [OneDrive](https://1drv.ms/f/s!ArbZ01SuUv5M2B0_ea9EAQ3qn8tX)
 - [坚果云](https://www.jianguoyun.com/p/DXsvZZsQ1qf_BhjX1GY)
@@ -13,8 +16,8 @@
 任选**其一**，自行下载**最新**版本，并解压到**合适**的位置。
 
 ## 2. 系统 & 环境
-> 该使用说明针对 `Windows` 操作系统（Linux 用户可下载源代码），依赖 `Python-3.X` 环境，若您的 `Windows` 无 `Python-3.X`，请先安装 `Python-3.X` ,已有该环境的用户可直接跳到步骤 [3. 安装模块](#3)。
-特附上Python-3.6.5安装包 [下载链接](https://share.weiyun.com/52UCsyb)，当然更希望你从 [Python官网](https://www.python.org/) 中下载适合自己的版本，同样自行保存到本地合适的位置。
+> 该使用说明针对 `Windows` 操作系统（Unix/Linux/MacOS 用户可下载源代码），依赖 `Python-3.X` 环境，若您的 `Windows` 无 `Python-3.X`，请先安装 `Python-3.X` ,已有该环境的用户可直接跳到步骤 [3. 安装模块](#3)。
+特附上 Python-3.6.5 安装包 [下载链接](https://share.weiyun.com/52UCsyb)，当然更希望你从 [Python官网](https://www.python.org/) 中下载适合自己的版本，同样自行保存到本地合适的位置。
 
 ### 2.1. **安装 Python 3**
 
@@ -102,12 +105,12 @@
 
 ## 5. 声明
 
-- **三家热门网站的音乐单曲与批量下载功能是笔者原创，视频下载功能的贡献来自github的开源项目 [you-get](https://github.com/soimort/you-get)，同时也是笔者灵感的来源与效法的对象。**
+- **三家热门网站的音乐单曲与批量下载功能是笔者原创，视频下载功能的贡献来自开源项目 [you-get](https://github.com/soimort/you-get)，同时也是笔者灵感的来源与效法的对象。**
 
 - **使用过程中出现任何bug欢迎反馈，邮箱如下：**
-    - graycat0918@gmail.com
+    - duruyao@gmail.com
     - duruyao@outlook.com
  
-- **强烈建议将Windows shell（或命令提示窗口）设置为黑底绿字，绿屏效应还是很酷的。**
+- **强烈建议将 Windows shell（或命令提示窗口）设置为黑底绿字，绿屏效应还是很酷的。**
 
-- **本软件仅供Python网络爬虫初学者入门学习借鉴之用，不得用于任何商业用途，不得传播盗版资源，不得侵犯持有版权的公司和创作者的任何利益......**
+- **本软件仅供 Python 网络爬虫初学者入门学习借鉴之用，不得用于任何商业用途，不得传播盗版资源，不得侵犯持有版权的公司和创作者的任何利益......**
